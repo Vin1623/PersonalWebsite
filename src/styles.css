@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(237, 201, 154);
+    margin: 10px 20%;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+#headshot{
+    width: 200px;
+    height: 200px;      /* Make it a square */
+    object-fit: cover;  /* Crop to fill the square */
+    object-position: 30% -30px; /* Show the top part of the image */
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;     /* Center the image */
+}
+
+.column1{
+    display:flex;
+    gap:20px;
+}
+.column2{
+    display: inline;
+    flex: 1;
+}
